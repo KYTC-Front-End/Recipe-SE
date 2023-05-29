@@ -16,7 +16,7 @@
 
 .header-title {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     font-size: 13px;
 
 }
@@ -190,6 +190,37 @@ cursor: pointer;
 
 
 /*------------------------------------------------------------Best Recipe section ---------------------------------------------------------------------------*/
+.hero-content {
+    color: #5D5C5C;
+    font-weight: bold;
+  
+
+}
+.hero-list{
+    padding-top: 20px;
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 54px;
+}
+
+  
+#item1 {
+    width: 158.32px;
+    height: 54px;
+    background: linear-gradient(180deg, #FF9400 0%, rgba(255, 148, 0, 0.09) 100%);
+    border: 1px solid #FF9400;
+    border-radius: 17px;
+}
+.item {
+    width: 158.32px;
+    height: 54px;
+    background: #FFFFFF;
+    border: 1px solid #FF9400;
+    border-radius: 17px;
+}
 .Recipe-contaier {
     padding-bottom: 26px;
 }
@@ -197,56 +228,57 @@ cursor: pointer;
 
 .Recipe-title {
     text-align: center;
- 
+    margin-top: 35px;
     text-transform: uppercase;
     letter-spacing: 1.2px;
     padding-top: 40px;
 }
 
 .Recipe-content{
-    
     display: flex;
     justify-content: space-evenly;
-    flex-direction: row;
-    margin-top: 30px;
-  
-}
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
 
+}
 .Recipe-content-card{
-width: 350px;
-height: 470px;
-background: #FFFFFF;
-border: 2px solid rgba(101, 101, 101, 0.05);
-border-radius: 25px;
-display: flex;
-justify-content: space-between;
-align-items: center;
-flex-direction: column;
-gap: 16px;
-text-align: center;
-    line-height: 22px;
-    font-size: 20px;
-    color: #656565;
-}
-
-.Recipe-content-card-img{
     width: 350px;
-}
+    height: 470px;
+    background: #FFFFFF;
+    border: 2px solid rgba(101, 101, 101, 0.05);
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+        line-height: 22px;
+        font-size: 20px;
+        color: #656565;
+    }
+    
+    .Recipe-content-card-img{
+        width: 350px;
+    }
+    
+    
+    .Recipe-content-card i{
+        color: #EA6D27;
+        font-size: 15px;
+        padding-bottom: 10px;
+    }
+    
+    .Recipe-content-card a {
+        text-decoration: none;
+        font-size: 15px;
+        color: #EA6D27;
+    }
 
-
-.Recipe-content-card i{
-    color: #EA6D27;
-    font-size: 15px;
-    padding-bottom: 10px;
-}
-
-.Recipe-content-card a {
-    text-decoration: none;
-    font-size: 15px;
-    color: #EA6D27;
-}
-
-
+    .card2 {
+        margin-top: 20px;
+    }
 
 
 /* ---------------------------------------------- Footer Section ------------------------------------------------------------------- */
@@ -258,11 +290,6 @@ text-align: center;
     font-size: 13px;
 
 }
-
-/* .mobile-container {
-    display: none;
-}
-*/
 
 .footer-title-Mid{
     display: flex;
@@ -309,30 +336,6 @@ img.footer-title-left-img {
 
 
 
-/*--------------------------------------------------------------------  page List -------------------------------------------------------------------*/
-.hero-list{
-    padding-top: 20px;
-    height: 60px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-top: 40px;
-}
-
-  
-#item1 {
-    height: 54px;
-    background: linear-gradient(180deg, #FF9400 0%, rgba(255, 148, 0, 0.09) 100%);
-    border: 1px solid #FF9400;
-    border-radius: 17px;
-    font-weight: bold;
-}
-.item {
-    width: 158.32px;
-    height: 54px;
-    background: #FFFFFF;
-    border: 1px solid #FF9400;
-    border-radius: 17px;
-    font-weight: bold;
-
+.List-contaier{
+    height: 1000px;
 }
