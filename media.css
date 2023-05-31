@@ -166,10 +166,102 @@
   .footer-title-right{
     justify-content: center;
   }
+    /* Detailes Page */
+
+  .Details-container{
+    padding-left: 30px;
+    padding-right: 35px;
+}
+
+
+.Details-title {
+    margin-top: 36px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+}
+.Details-content .right_box{
+    margin-left: 16px;
+}
+
+.Details-content-left .icon{
+    width: 33px;
+    height: 33px;
+}
+.Ingredients-container{
+    flex-direction: column;
+    height: 660px;
+}
+
+.Ingredients-image img {
+    width: 100%;
+    height: 311px;
+}
+
+
+.Ingredients-title h1 {
+    line-height: 28px;
+    font-size: 20px;
+}
+
+.Ingredients-content {
+    line-height: 30px;
+    padding-left: 10px;
+}
+
+
+.Ingredients-content p{
+    font-size:12px;
+}
+
+.Instructions-container{
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+.Instructions-image img {
+    width: 400px;
+    height: 400px;
+}
+
+
+.Instructions-container h1 {
+    font-size: 17px;
+}
+
+.Instructions-content {
+    line-height: 30px;
+}
+
+
+.Instructions-content p{
+    width: 333px;
+    font-size: 12px;
+   
+}
+.Instructions-content span {
+    padding: 2px;
+    font: 10px Arial, sans-serif;
+}
+h4{
+    font-size: small;
+}
+.fa-solid{
+    font-size: large;
+
+}
+
+.Details-content-right p {
+    font-size: 12px;
+}
 
 
     }
-   
+
+
+
+
+
 
 
     
@@ -236,18 +328,103 @@
             
         }
 
-        .Recipe-content 
-        {
-            flex-direction: column;
-            gap: 31px;
-        }
-        .Recipe-content-card{
-            width: 100%;
-        }
+       
 
-        .Recipe-content-card-img{
-            width: 100%;
-            height: 50%;
+
+
+        .Details-container{
+            padding-left: 30px;
+            padding-right: 35px;
+        }
+        
+        
+        .Details-title {
+            margin-top: 36px;
+            font-size: 18px;
+            display: flex;
+            justify-content: flex-start;
+        }
+        .Details-content .right_box{
+            margin-left: 16px;
+        }
+        
+        .Details-content-left .icon{
+            width: 33px;
+            height: 33px;
+        }
+        .Ingredients-container{
+            flex-direction: row;
+            height: 300px;
+        }
+        
+        .Ingredients-image img {
+            width: 300px;
+            height: 276px;
+        }
+        
+        
+        .Ingredients-title h1 {
+            line-height: 28px;
+            font-size: 20px;
+            padding-left: 10px;
+        }
+        
+        .Ingredients-content {
+            line-height: 30px;
+            padding-left: 32px;
+        }
+        
+        
+        .Ingredients-content p{
+            font-size:12px;
+        }
+        
+        .Instructions-container{
+            flex-direction: column;
+            align-items: flex-start;
+            padding-left: 25px;
+        }
+        
+        .Instructions-image img {
+            width: 400px;
+            height: 400px;
+        }
+        
+        
+        .Instructions-container h1 {
+            font-size: 17px;
+        }
+        
+        .Instructions-content {
+            line-height: 30px;
+        }
+        
+        
+        .Instructions-content p{
+            font-size: 12px;
+           
+        }
+        .Instructions-content span {
+            padding: 2px;
+            font: 10px Arial, sans-serif;
+        }
+        h4{
+            font-size: small;
+        }
+        .fa-solid{
+            font-size: large;
+        
+        }
+        
+        
+        
+        
+        
+        
+        
+        
+        .Details-content-right p {
+            font-size: 12px;
         }
     }
     
