@@ -107,6 +107,7 @@ cursor: pointer;
 
 .hero-content {
     line-height: 22px;
+    color: #5D5C5C;
 }
 .hero-img img {
     width: 415px;
@@ -125,12 +126,7 @@ cursor: pointer;
 
 
 
-.hero-content {
-    color: #5D5C5C;
-    font-weight: bold;
-  
 
-}
 
 
 /*------------------------------------------------------------Feature section ---------------------------------------------------------------------------*/
@@ -190,12 +186,7 @@ cursor: pointer;
 
 
 /*------------------------------------------------------------Best Recipe section ---------------------------------------------------------------------------*/
-.hero-content {
-    color: #5D5C5C;
-    font-weight: bold;
-  
 
-}
 .hero-list{
     padding-top: 20px;
     height: 60px;
