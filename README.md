@@ -1,4 +1,4 @@
-# Recipe-website <img src="./images/icon_1.ico" width="50px">
+# Recipe-website <img src="./images/icon_1.ico" width="20px">
 ###### Recipe search site Food makes it easy to access available recipes and print them when needed
 # Live demo 📺
 [Recipe Website](https://kytc-front-end.github.io/Recipe-SE/index.html)
