@@ -407,3 +407,53 @@ img.footer-title-left-img {
   text-align: center;
   font: 18px Arial, sans-serif;
 }
+/*submit */
+.submit-contant{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.submit-contaier{
+  width: 100%;
+  padding: 72px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.submit-imge img{
+  width: 764px;
+  height: 374px;
+  padding: 13px;
+}
+.submit-label{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+#submit-name, #submit-method, #submit-ingredients {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 16px;
+  width: 731px;
+
+}
+
+.submit{
+  padding: 10px;
+  background-color: #ef7123;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 200px;
+}

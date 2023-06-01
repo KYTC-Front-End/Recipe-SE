@@ -231,6 +231,29 @@
   .Details-content-right p {
     font-size: 12px;
   }
+
+  
+#submit-name, #submit-method, #submit-ingredients {
+  padding: 3px;
+  font-size: 16px;
+  width: 262px;
+  font-size: 8px;
+
+}
+
+.submit-imge img{
+  width: 288px;
+  height: 169px;
+}
+.submit{
+  width: 123px;
+}
+.submit-contaier{
+  padding: 37px 0;
+
+}
+
+
 }
 
 @media (min-width: 600px) and (max-width: 900px) {
