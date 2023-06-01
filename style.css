@@ -216,8 +216,8 @@ img.header-title-left-img {
   margin-top: 20px;
 }
 .Recipe-content-card {
-  width: 350px;
-  height: 470px;
+  width: 495px;
+  height: 689px;
   background: #ffffff;
   border: 2px solid rgba(101, 101, 101, 0.05);
   border-radius: 25px;
@@ -233,7 +233,7 @@ img.header-title-left-img {
 }
 
 .Recipe-content-card-img {
-  width: 350px;
+  width: 495px;
 }
 
 .Recipe-content-card i {
